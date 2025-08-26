@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { UseBlogs } from "../../../hooks/contex/UseContexProvider";
 
-export default function Inputone() {
+export default function InputOne() {
   const { translations, loading, fetchBooks, setSelectedTranslation } =
     UseBlogs();
   const [selectedIdentifier, setSelectedIdentifier] = useState("");

@@ -1,15 +1,15 @@
 import React from "react";
-import Inputone from "../../pages/Selector/FormInput/Inputone";
-import Inputtwo from "../../pages/Selector/FormInput/Inputtwo";
-import Inputthree from "../../pages/Selector/FormInput/Inputthree";
+import InputOne from "./FormInput/InputOne.jsx";
+import InputTwo from "./FormInput/InputTwo.jsx";
+import InputThree from "../../pages/Selector/FormInput/InputThree.jsx";
 
 export default function SelectInfo() {
   return (
     <>
       <div>
-        <Inputone />
-        <Inputtwo />
-        <Inputthree />
+        <InputOne />
+        <InputTwo />
+        <InputThree />
       </div>
     </>
   );

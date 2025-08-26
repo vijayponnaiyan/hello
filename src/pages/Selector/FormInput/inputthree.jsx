@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { UseBlogs } from "../../../hooks/contex/UseContexProvider";
 import { motion } from "framer-motion";
 
-export default function Inputthree() {
+export default function InputThree() {
   const { selectedTranslation, selectedBook, fetchVersesData } = UseBlogs();
   const [selectedChapter, setSelectedChapter] = useState("");
   const [selectedVerse, setSelectedVerse] = useState("");

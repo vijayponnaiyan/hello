@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { UseBlogs } from "../../../hooks/contex/UseContexProvider";
 import { motion } from "framer-motion";
 
-export default function Inputtwo() {
+export default function InputTwo() {
   const { bible, setSelectedBook } = UseBlogs();
   const [selectedBook, setSelectedBookLocal] = useState("");
 
