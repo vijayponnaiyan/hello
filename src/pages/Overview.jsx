@@ -1,4 +1,4 @@
-import SelectInfo from "../pages/Selector/SelectInfo";
+import SelectInfo from "../pages/SelectInfo";
 import { UseBlogs } from "../hooks/contex/UseContexProvider";
 import Loader from "../components/ui/Loader";
 import ErrorState from "../components/ui/ErrorState";
